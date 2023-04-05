@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Weather App</title>
+     <!-- Link section
+     * fonts
+     *font-family
+     *css
+     -->
+
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">     
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+       <link rel ="stylesheet"href="style.css">
+        
+    </head>
+    <body>
+        
+      
+     <div class="main">
+        <div class="main2">
+        <div class ="header">
+            <!-- background-image  -->
+            <div class ="logo">
+                <img src ="IMAGES/logo5.png" alt ="logo">
+            </div>
+            <div class = "head1">
+                <h1>WEATHER APP</h1>
+            </div>
+        </div> 
+        <!-- container of middle portion at website  -->
+        <div class="container">
+            
+           
+          <div>
+            <h1 class ="temp">18&#176;</h1>
+            <div class = "city-time" >
+                <h1 class = "name">New Delhi</h1>
+                <small><span class="time">11:00AM</span>
+                <span class ="date"> Wednesday Jan 18</span>
+                </small>
+                
+
+            </div>
+            <div class = "weather-icon">
+                <img src = "IMAGES/icon.png" class = "icon"
+                   alt ="icon"
+                  height ="50" width ="50">
+             <span class ="condition">sunny</span>
+            </div>
+            
+          </div>
+          <!-- for next four days forecast at footer section-->
+          
+          <div class="forecstD">
+           
+            <div class="panel1">
+            <p class="cast-header"> Next 4 days forecast</p>
+           
+            <div class="weekF">
+               
+    
+                <div class="dayF">
+                    <p class="date1">19 Jan Thu</p>
+                    <p>18 °C </p>
+                    <p class="desc">Foggy</p>
+                </div>
+    
+                <div class="dayF">
+                    <p class="date1"> 20 Jan Fri</p>
+                    <p>21&#176</p>
+                    <p class="desc">Sunny</p>
+                </div>
+    
+                <div class="dayF">
+                    <p class="date1">21 Jan Sat</p>
+                    <p>18 °C</p>
+                    <p class="desc">Foggy</p>
+                </div>
+                <div class="dayF">
+                    <p class="date1">22 Jan Sun</p>
+                    <p>18 °C</p>
+                    <p class="desc">Foggy</p>
+                </div>
+                </div>
+    
+             
+            </div>
+        </div>
+        </div>
+        <!-- panel for searching location  -->
+        <div class="panel">
+            <form id="locinput">
+                <input type ="text" class="search" placeholder="Search the Location">
+                <button type="submit" class="submit"><i class="fa fa-search"></i></button>
+
+            </form>
+            <ul class="cities">
+                <li class="city">Chennai</li>
+                <li class="city">Trichy</li>
+                <li class="city">Nellore</li>
+                <li class="city">Madurai</li>
+                
+                
+
+            </ul>
+            <!-- weather forecast details -->
+            <ul class="weatherdetails">
+                <h4>Weather Details</h4>
+                <li>
+                    <span>Humidity</span>
+                    <span class="humidity">45%</span>
+                </li>
+                <li>
+                    <span>Wind Speed</span>
+                    <span class="wind">8Km/h</span>
+                </li>
+                
+                <li>
+                    <span>pressure</span>
+                    <span class="pressure">1021.7mb</span>
+                </li>
+                
+            </ul>
+            
+        </div>
+        </div>
+ 
+       
+        </div>
+       
+     <!-- linking to sript part -->
+        <script src="script.js"></script>  
+    </body>
+
+</html>
+</HTML>
